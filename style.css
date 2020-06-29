@@ -1,33 +1,44 @@
+/* * body {
+    background-color: black;
+} */
+
 .grid {
     display: flex;
     flex-wrap: wrap;
     width: 560px;
     height: 560px;
-    border: solid black;
+    border: solid black 200px;
+    margin-top: 0px;
+    /* background-color: black; */
 }
-
+.score {
+    color: blue;
+    font-size: 38px;
+    margin-top: 5vw;
+    margin-left: 45vw;
+}
 .grid div {
     width: 20px;
     height: 20px;
 }
-
+.container {
+    display: flex;
+    justify-content: center;
+}
 .pac-dot {
-    background-color: green;
-    border: 5px solid white;
+    background-color: black;
+    border: 8px solid white;
     box-sizing: border-box;
 }
 
 .wall {
-    background-color: blue;
+    background: blue;
 }
 
 .power-pellet {
     background-color: green;
     border-radius: 10px;
-
 }
-
-
 
 .blinky {
     background-color: red;
@@ -55,4 +66,7 @@
     background-color: yellow;
     border-radius: 10px;
 }
+/* .ghost-lair {
+    background-color: white;
+} */
 
